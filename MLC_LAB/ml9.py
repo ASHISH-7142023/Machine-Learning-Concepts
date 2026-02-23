@@ -1,0 +1,6 @@
+n=int(input("enter the marks: "))
+if n<=100 and n>=90: print("A")
+elif n<=89 and n>=75: print("B")
+elif n<=74 and n>=50: print("C")
+elif n<50: print("Fail")
+else: print("enter valid value")
